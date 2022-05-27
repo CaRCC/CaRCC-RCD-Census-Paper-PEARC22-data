@@ -1,0 +1,19 @@
+# Binder
+/.bash_logout
+/.bashrc
+/.conda/
+/.config/
+/.jupyter-server-log.txt
+/.jupyter/
+/.local/
+/.profile
+/.subversion/
+/.ipynb_checkpoints/
+# Data
+/data/
+# Dev
+/.vscode/
+/.venv/
+/.Renviron
+/tmp/
+# Local

@@ -1,10 +1,16 @@
+# Characterizing the US Research Computing and Data (RCD) Workforce Analysis
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MiddelkoopT/CaRCC-RCD-Census-Paper-PEARC22-data.git/HEAD)
+
 Data sets to accompany "Characterizing the US Research Computing and Data (RCD) Workforce"
+
+Dataset citation: Maimone, Christina, Yockel, Scott, Alameda, Jay, Middelkoop, Timothy, Neeser, Amy, & Stauffer, Ashley. (2022). CaRCC Research Computing and Data (RCD) Workforce Survey Data 2021 - Part 1 (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6574465
 
 Paper citation: Christina Maimone, Scott Yockel, Timothy Middelkoop, Ashley Stauffer, and Chris Reidy. 2022. Characterizing the US Research
 Computing and Data (RCD) Workforce. In Practice and Experience in Advanced Research Computing (PEARC ’22), July 10–14, 2022,
 Boston, MA, USA. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3491418.3530289
 
-Survey questions: Maimone, Christina, Yockel, Scott, Middelkoop, Timothy, Alameda, Jay, Stauffer, Ashley, & Neeser, Amy. (2021). CaRCC Research Computing and Data (RCD) Workforce 2021 Census Questions (1.0). Zenodo. https://doi.org/10.5281/zenodo.5914431
+Survey questions citation: Maimone, Christina, Yockel, Scott, Middelkoop, Timothy, Alameda, Jay, Stauffer, Ashley, & Neeser, Amy. (2021). CaRCC Research Computing and Data (RCD) Workforce 2021 Census Questions (1.0). Zenodo. https://doi.org/10.5281/zenodo.5914431
 
 Notes:
 
