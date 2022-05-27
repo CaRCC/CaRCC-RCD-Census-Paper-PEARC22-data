@@ -1,0 +1,28 @@
+variable,category,group_count,Agree (Somewhat OR Strongly),Strongly agree,Somewhat agree,Neither agree nor disagree,Somewhat disagree,Strongly disagree
+disability,FALSE,499,80%,46%,34%,12%,5%,1%
+disability,TRUE,39,71%,38%,33%,15%,3%,8%
+education_related,Extremely related,118,82%,52%,30%,13%,2%,1%
+education_related,Moderately related,163,79%,41%,38%,12%,5%,2%
+education_related,Not at all related,33,78%,48%,30%,9%,9%,3%
+education_related,Slightly related,83,81%,51%,30%,11%,5%,4%
+education_related,Very related,142,80%,43%,37%,12%,7%,1%
+heterosexual,FALSE,62,77%,42%,35%,15%,5%,3%
+heterosexual,TRUE,421,83%,48%,35%,10%,5%,1%
+hispanic,FALSE,496,82%,48%,34%,11%,5%,2%
+hispanic,TRUE,13,61%,15%,46%,31%,8%,0%
+male,FALSE,155,73%,30%,43%,15%,7%,2%
+male,TRUE,384,83%,52%,31%,10%,4%,2%
+overall,NA,539,80%,46%,34%,12%,5%,2%
+position_category,Director,75,81%,53%,28%,13%,3%,1%
+position_category,Faculty,39,77%,54%,23%,13%,8%,3%
+position_category,Individual contributor,133,82%,44%,38%,13%,4%,1%
+position_category,Lead/principal individual contributor,74,83%,42%,41%,12%,3%,1%
+position_category,Manager,69,82%,54%,28%,12%,6%,1%
+position_category,Other/Unknown,13,46%,15%,31%,23%,8%,0%
+position_category,Senior individual contributor,118,77%,41%,36%,9%,8%,4%
+position_category,Student position / internship,9,88%,44%,44%,11%,0%,0%
+position_category,"AVP, VP, CIO, or other senior leader",9,100%,56%,44%,0%,0%,0%
+us_perm,FALSE,24,79%,46%,33%,8%,4%,4%
+us_perm,TRUE,501,81%,47%,34%,12%,5%,2%
+white,FALSE,104,71%,35%,36%,17%,7%,3%
+white,TRUE,433,83%,49%,34%,10%,5%,2%

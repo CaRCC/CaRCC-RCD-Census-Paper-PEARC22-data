@@ -1,0 +1,461 @@
+---
+title: "Analysis"
+author: "Christina Maimone"
+date: "4/23/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+```
+
+This file contains the public data analysis for "Characterizing the US Research Computing and Data (RCD) Workforce."
+
+```{r}
+library(tidyverse)
+library(janitor)
+```
+
+# Data
+
+```{r}
+all_freq <- read_csv("data_to_share/var_frequencies_all_respondents.csv")
+institutions <- read_csv("data_to_share/institutions_all.csv")
+all_edu_work <- read_csv("data_to_share/education_work_all_respondents.csv")
+rcd_edu_work <- read_csv("data_to_share/education_work_rcd_respondents.csv")
+gender <- read_csv("data_to_share/gender_counts.csv")
+ethnicity <- read_csv("data_to_share/ethnicity_counts.csv")
+jobs <- read_csv("data_to_share/job_titles.csv")
+facings <- read_csv("data_to_share/facings.csv")
+satisfaction <- read_csv("data_to_share/satisfaction_rcd_respondents.csv")
+inclusion <- read_csv("data_to_share/inclusion.csv")
+```
+
+# 3: SURVEYING THE WORKFORCE
+
+Institution Counts
+
+```{r}
+length(unique(institutions$institution_code))
+institutions %>%
+  distinct(institution_code, .keep_all=TRUE) %>%
+  tabyl(institution_type)
+institutions %>%
+  filter(!is.na(institution_code)) %>%
+  count(institution_code) %>%
+  summarize(median(n),
+            max(n))
+```
+
+R1/R2
+
+```{r}
+institutions %>%
+  filter(academic_institution) %>%
+  summarize(R1_respondents = sum(institution_type == "R1")/n(),
+            R1_inst = n_distinct(institution_code[institution_type == "R1"])/n_distinct(institution_code))
+```
+
+
+Respondents
+
+```{r}
+filter(all_freq, variable == "rcd_employed")
+
+sum(rcd_edu_work$academic_institution, na.rm=TRUE)/sum(!is.na(rcd_edu_work$academic_institution))
+```
+
+
+# 4.1 Demographics
+
+## Age
+
+```{r}
+filter(all_freq, variable=="age")
+```
+
+
+## Race/Ethnicity
+
+```{r}
+filter(all_freq, variable=="ethnicity1")
+filter(all_freq, variable=="hispanic")
+```
+
+
+## Gender
+
+```{r}
+filter(all_freq, variable=="gender")
+```
+
+
+## US Citizenship/Residency
+
+```{r}
+filter(all_freq, variable=="us_perm")
+```
+
+## Sexual Orientation
+
+```{r}
+filter(all_freq, variable=="sex_orientation")
+```
+
+## Disability Status
+
+```{r}
+filter(all_freq, variable=="disability")
+```
+
+
+
+# 4.2 Education and Experience
+
+## Education
+
+```{r}
+filter(all_freq, variable=="education") 
+```
+
+```{r}
+filter(all_freq, variable=="education_field_count") 
+```
+
+Respondents without a PhD
+
+```{r}
+all_edu_work %>%
+  filter(education != "PhD or Doctorate") %>%
+  select(starts_with("education_field") & -education_field_count) %>%
+  summarize(across(everything(), ~sum(.x)/n())) %>%
+  pivot_longer(everything()) %>%
+  arrange(desc(value))
+```
+
+Respondents with a PhD
+
+```{r}
+all_edu_work %>%
+  filter(education == "PhD or Doctorate") %>%
+  select(starts_with("education_field") & -education_field_count) %>%
+  summarize(across(everything(), ~sum(.x)/n())) %>%
+  pivot_longer(everything()) %>%
+  arrange(desc(value))
+```
+
+```{r}
+all_edu_work %>%
+  mutate(education_related = education_related %in% c("Extremely related", "Very related")) %>%
+  tabyl(education_related)
+```
+
+
+```{r}
+all_edu_work %>%
+  select(starts_with("education_field"), education_related, -education_field_count) %>%
+  pivot_longer(-education_related) %>%
+  mutate(education_related = education_related %in% c("Extremely related", "Very related")) %>%
+  filter(value) %>%
+  group_by(name) %>%
+  summarize(prop_related = sum(education_related)/sum(!is.na(education_related))) %>%
+  arrange(desc(prop_related))
+```
+
+
+## Work Experience
+
+```{r}
+median(all_edu_work$experience_work, na.rm=TRUE)
+median(all_edu_work$experience_rcd, na.rm=TRUE)
+```
+
+```{r}
+tabyl(all_edu_work, experience_rcd_only)
+```
+
+```{r}
+median(all_edu_work$experience_rcd/all_edu_work$experience_work, na.rm=TRUE)
+```
+
+People at academic institutions with non-academic RCD work experience
+
+```{r}
+all_edu_work %>%
+  filter(academic_institution) %>% 
+  tabyl(experience_non_academic_rcd)
+```
+
+```{r}
+tabyl(all_edu_work, experience_corporate)
+```
+
+# 4.3 Current Positions
+
+## Employer Types and Units
+
+```{r}
+tabyl(rcd_edu_work, institution_combo_group)
+tabyl(rcd_edu_work, position_group_rc)
+```
+
+
+## Tenure and Promotion
+
+```{r}
+median(rcd_edu_work$position_group_tenure, na.rm=TRUE)
+median(rcd_edu_work$position_tenure, na.rm=TRUE)
+tabyl(rcd_edu_work, position_group_tenure_cat)
+```
+
+RCD experience exceeds current group tenure?
+
+```{r}
+rcd_edu_work %>%
+  mutate(other_group_rcd = experience_rcd > position_group_tenure) %>%
+  tabyl(other_group_rcd)
+```
+
+Promoted
+
+```{r}
+rcd_edu_work %>%
+  tabyl(promoted)
+```
+
+Only enough male and female respondents to compare (others not included below)
+
+```{r}
+gender %>%
+  filter(variable=="promoted") %>%
+  pivot_wider(names_from=gender, values_from=n, values_fill=0) %>%
+  mutate(across(-1:-2, ~.x/sum(.x)))
+  
+```
+
+
+```{r}
+rcd_edu_work %>%
+  filter(position_group_tenure_cat == "5-9") %>%
+  tabyl(promoted)
+
+rcd_edu_work %>%
+  filter(position_group_tenure_cat == "10+") %>%
+  tabyl(promoted)
+```
+
+
+## Position Types and Levels
+
+```{r}
+rcd_edu_work %>%
+  tabyl(position_category)
+
+rcd_edu_work %>%
+  group_by(position_category) %>%
+  summarize(rcd_experience = median(experience_rcd, na.rm=TRUE),
+            supervise_staff = sum(supervise_staff, na.rm=TRUE)/sum(!is.na(supervise_staff)))
+```
+
+
+```{r}
+gender %>%
+  filter(variable=="supervise_staff") %>%
+  pivot_wider(names_from=gender, values_from=n, values_fill=0) %>%
+  mutate(across(-1:-2, ~.x/sum(.x)))
+
+gender %>%
+  filter(variable=="management_staff_role") %>%
+  pivot_wider(names_from=gender, values_from=n, values_fill=0) %>%
+  mutate(across(-1:-2, ~.x/sum(.x)))
+```
+
+```{r}
+ethnicity %>%
+  filter(variable=="supervise_staff") %>%
+  pivot_wider(names_from=group, values_from=n, values_fill=0) %>%
+  mutate(across(-1:-2, ~.x/sum(.x)))
+
+ethnicity %>%
+  filter(variable=="management_staff_role") %>%
+  pivot_wider(names_from=group, values_from=n, values_fill=0) %>%
+  mutate(across(-1:-2, ~.x/sum(.x)))
+```
+
+## Job Titles
+
+```{r}
+jobs %>%
+  select(starts_with("job_"), -job_title_official, -job_title_alternate) %>%
+  summarize(across(everything(), ~sum(.x, na.rm=TRUE)/n())) %>%
+  pivot_longer(everything(), names_to="term", values_to="prop") %>%
+  arrange(desc(prop))
+
+jobs %>%
+  tabyl(job_title_alternate)
+
+jobs %>%
+  summarize(sum(job_research,
+                na.rm=TRUE)/n())
+
+jobs %>%
+  summarize(sum(job_compute,
+                na.rm=TRUE)/n())
+```
+
+## Funding
+
+```{r}
+rcd_edu_work %>%
+  filter(position_type == "Staff") %>%
+  summarize(hourly = sum(!position_hourly, na.rm=TRUE)/n(),
+            fulltime = sum(position_fulltime, na.rm=TRUE)/n())
+
+rcd_edu_work %>%
+  filter(position_type == "Staff") %>%
+  tabyl(position_funding)
+```
+
+
+## Worksite
+
+```{r}
+rcd_edu_work %>%
+  tabyl(onsite_remote)
+```
+
+
+## Responsibilities
+
+```{r}
+rcd_edu_work %>%
+  tabyl(position_scope) %>%
+  arrange(desc(percent))
+
+rcd_edu_work %>%
+  summarize(full_rcd = sum(position_percent_rcd == 100, na.rm=TRUE)/n(),
+            rcd_76_99 = sum(position_percent_rcd > 75 & position_percent_rcd < 100, na.rm=TRUE)/n(),
+            rcd_half = sum(position_percent_rcd >= 50, na.rm=TRUE)/n())
+
+tabyl(rcd_edu_work, supervise_staff)
+
+tabyl(rcd_edu_work, supervise_student_workers)
+```
+
+
+
+# 4.4 Position Domains
+
+```{r}
+facings %>%
+  tabyl(facings_familiar)
+
+facings %>%
+  tabyl(facings_number)
+
+facings %>%
+  select(ends_with("majority")) %>%
+  rowwise() %>%
+  mutate(majority = sum(c_across(everything()), na.rm=TRUE)) %>%
+  ungroup() %>%
+  summarize(sum(majority, na.rm=TRUE)/n())
+
+facings %>%
+  select(ends_with("majority")) %>%
+  summarize(across(everything(), ~sum(.x, na.rm=TRUE)/sum(!is.na(facings_researcher_majority))))
+
+facings %>%
+  select(facings_researcher:facings_strategy) %>%
+  summarize(across(everything(), median, na.rm=TRUE))
+```
+
+
+# 4.5 Position and RCD Field Satisfaction
+
+## Work Valued
+
+```{r}
+satisfaction %>%
+  mutate(valued = valued_peers %in% c("Always", "Most of the time"),
+         valued = ifelse(is.na(valued_peers), NA, valued)) %>%
+  tabyl(valued)
+
+satisfaction %>%
+  mutate(valued = valued_manager %in% c("Always", "Most of the time"),
+         valued = ifelse(is.na(valued_manager), NA, valued)) %>%
+  tabyl(valued)
+
+satisfaction %>%
+  mutate(valued = valued_researchers %in% c("Always", "Most of the time"),
+         valued = ifelse(is.na(valued_researchers), NA, valued)) %>%
+  tabyl(valued)
+
+satisfaction %>%
+  mutate(valued = valued_org %in% c("Always", "Most of the time"),
+         valued = ifelse(is.na(valued_org), NA, valued)) %>%
+  tabyl(valued)
+```
+
+
+```{r}
+satisfied_valued <- function(variable) {
+  satisfaction %>%
+    mutate(valued = {{variable}} %in% c("Always", "Most of the time"),
+           valued = ifelse(is.na({{variable}}), NA, ifelse(valued, "Valued", "Not Valued")),
+           satisfied = rcd_satisfaction %in% c("Extremely satisfied", "Somewhat satisfied"),
+           satisfied = ifelse(is.na(rcd_satisfaction), NA, ifelse(satisfied, "Satisfied", "Not Satisfied"))) %>%
+    tabyl(valued, satisfied) %>%
+    adorn_percentages()
+}
+satisfied_valued(valued_peers)
+satisfied_valued(valued_manager)
+satisfied_valued(valued_researchers)
+satisfied_valued(valued_org)
+```
+
+## Opportunities
+
+```{r}
+satisfaction %>%
+    mutate(satisfied = rcd_satisfaction %in% c("Extremely satisfied", "Somewhat satisfied"),
+           satisfied = ifelse(is.na(rcd_satisfaction), NA, ifelse(satisfied, "Satisfied", "Not Satisfied"))) %>%
+    tabyl(satisfied)
+
+satisfaction %>%
+    mutate(opp = rcd_opportunities %in% c("Strongly agree", "Somewhat agree"),
+           opp = ifelse(is.na(rcd_opportunities), NA, ifelse(opp, "Strongly/Somewhat Agree", "Not agree"))) %>%
+    tabyl(opp)
+
+satisfaction %>%
+    mutate(opp = rcd_opportunities %in% c("Strongly agree", "Somewhat agree"),
+           opp = ifelse(is.na(rcd_opportunities), NA, ifelse(opp, "Strongly/Somewhat Agree", "Not agree"))) %>%
+    tabyl(promoted, opp) %>%
+    adorn_percentages()
+
+satisfaction %>%
+  tabyl(rcd_future)
+
+mean(satisfaction$rcd_recommend, na.rm=TRUE)
+
+sum(satisfaction$rcd_recommend >= 8, na.rm=TRUE)/sum(!is.na(satisfaction$rcd_recommend))
+```
+
+
+```{r}
+satisfaction %>%
+  mutate(no_future = !rcd_opportunities %in% c("Strongly agree", "Somewhat agree") | 
+           !rcd_future %in% c("Strongly agree", "Somewhat agree"),
+         applied_6months = any_last_applied %in% c("Within the last month","1-6 months ago")) %>%
+  tabyl(no_future, applied_6months) %>%
+  adorn_percentages()
+```
+
+
+
+## Included
+
+```{r}
+inclusion
+```
+
+

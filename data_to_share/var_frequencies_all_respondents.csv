@@ -1,0 +1,151 @@
+variable,category,n,prop
+age,20 - 24,11,0.019538188277087035
+age,25 - 34,96,0.1705150976909414
+age,35 - 44,167,0.2966252220248668
+age,45 - 54,171,0.3037300177619893
+age,55 - 64,99,0.17584369449378331
+age,65 - 74,19,0.03374777975133215
+any_last_applied,1-2 years ago,32,0.056838365896980464
+any_last_applied,1-6 months ago,39,0.06927175843694494
+any_last_applied,7-12 months ago,25,0.04440497335701599
+any_last_applied,More than two years ago,320,0.5683836589698046
+any_last_applied,Within the last month,21,0.037300177619893425
+any_last_applied,NA,126,0.22380106571936056
+asian,FALSE,497,0.8827708703374778
+asian,TRUE,62,0.11012433392539965
+asian,NA,4,0.007104795737122558
+disability,FALSE,519,0.9218472468916519
+disability,TRUE,41,0.07282415630550622
+disability,NA,3,0.0053285968028419185
+education,Bachelor's Degree,140,0.24866785079928952
+education,Master's Degree,184,0.3268206039076377
+education,No Bachelor's Degree,26,0.046181172291296625
+education,PhD or Doctorate,207,0.36767317939609234
+education,NA,6,0.010657193605683837
+education_field_arts,FALSE,508,0.9023090586145648
+education_field_arts,TRUE,55,0.09769094138543517
+education_field_computer,FALSE,305,0.5417406749555951
+education_field_computer,TRUE,258,0.458259325044405
+education_field_count,0,7,0.012433392539964476
+education_field_count,1,379,0.6731793960923623
+education_field_count,2,148,0.26287744227353466
+education_field_count,3,23,0.04085257548845471
+education_field_count,4,3,0.0053285968028419185
+education_field_count,5,1,0.0017761989342806395
+education_field_count,6,2,0.003552397868561279
+education_field_earth,FALSE,559,0.9928952042628775
+education_field_earth,TRUE,4,0.007104795737122558
+education_field_engineering,FALSE,455,0.8081705150976909
+education_field_engineering,TRUE,108,0.19182948490230906
+education_field_life,FALSE,483,0.8579040852575488
+education_field_life,TRUE,80,0.14209591474245115
+education_field_ljbe,FALSE,541,0.9609236234458259
+education_field_ljbe,TRUE,22,0.03907637655417407
+education_field_math,FALSE,490,0.8703374777975134
+education_field_math,TRUE,73,0.12966252220248667
+education_field_other,FALSE,559,0.9928952042628775
+education_field_other,TRUE,4,0.007104795737122558
+education_field_physical,FALSE,440,0.7815275310834814
+education_field_physical,TRUE,123,0.21847246891651864
+education_field_sochum,FALSE,447,0.7939609236234458
+education_field_sochum,TRUE,116,0.20603907637655416
+education_field_social,FALSE,517,0.9182948490230906
+education_field_social,TRUE,46,0.08170515097690942
+education_related,Extremely related,122,0.216696269982238
+education_related,Moderately related,168,0.2984014209591474
+education_related,Not at all related,34,0.06039076376554174
+education_related,Slightly related,86,0.152753108348135
+education_related,Very related,149,0.26465364120781526
+education_related,NA,4,0.007104795737122558
+ethnicity1,Asian,59,0.10479573712255773
+ethnicity1,Black or African American,10,0.017761989342806393
+ethnicity1,Multiple/Native Hawaiian or Pacific Islander/Jewish/Middle Eastern/Mediterranean/Other Unspecified,15,0.02664298401420959
+ethnicity1,White (Hispanic),9,0.015985790408525755
+ethnicity1,White (Not Hispanic),435,0.7726465364120781
+ethnicity1,NA,35,0.06216696269982238
+experience_academic,FALSE,23,0.04085257548845471
+experience_academic,TRUE,540,0.9591474245115453
+experience_corporate,FALSE,287,0.5097690941385435
+experience_corporate,TRUE,276,0.49023090586145646
+experience_gov,FALSE,474,0.8419182948490231
+experience_gov,TRUE,89,0.15808170515097691
+experience_lab,FALSE,511,0.9076376554174067
+experience_lab,TRUE,52,0.09236234458259325
+experience_non_academic_rcd,FALSE,444,0.7886323268206039
+experience_non_academic_rcd,TRUE,107,0.19005328596802842
+experience_non_academic_rcd,NA,12,0.021314387211367674
+experience_nonprofit,FALSE,479,0.8507992895204263
+experience_nonprofit,TRUE,84,0.1492007104795737
+experience_rcd_only,FALSE,423,0.7513321492007105
+experience_rcd_only,TRUE,127,0.2255772646536412
+experience_rcd_only,NA,13,0.023090586145648313
+experience_self,FALSE,551,0.9786856127886323
+experience_self,TRUE,12,0.021314387211367674
+gender,Female,134,0.23801065719360567
+gender,Male,396,0.7033747779751333
+gender,Non-binary/Nonconforming/Genderqueer,12,0.021314387211367674
+gender,Other/No Answer,21,0.037300177619893425
+hispanic,FALSE,516,0.91651865008881
+hispanic,TRUE,13,0.023090586145648313
+hispanic,NA,34,0.06039076376554174
+rcd_employed,No/No Answer,24,0.04262877442273535
+rcd_employed,Yes,539,0.9573712255772646
+rcd_future,Neither agree nor disagree,76,0.1349911190053286
+rcd_future,Somewhat agree,205,0.3641207815275311
+rcd_future,Somewhat disagree,40,0.07104795737122557
+rcd_future,Strongly agree,215,0.38188277087033745
+rcd_future,Strongly disagree,15,0.02664298401420959
+rcd_future,NA,12,0.021314387211367674
+rcd_included,Neither agree nor disagree,67,0.11900532859680284
+rcd_included,Somewhat agree,193,0.3428063943161634
+rcd_included,Somewhat disagree,29,0.05150976909413854
+rcd_included,Strongly agree,250,0.44404973357015987
+rcd_included,Strongly disagree,13,0.023090586145648313
+rcd_included,NA,11,0.019538188277087035
+rcd_last_applied,1-2 years ago,71,0.1261101243339254
+rcd_last_applied,1-6 months ago,55,0.09769094138543517
+rcd_last_applied,7-12 months ago,34,0.06039076376554174
+rcd_last_applied,More than two years ago,364,0.6465364120781527
+rcd_last_applied,Within the last month,20,0.035523978685612786
+rcd_last_applied,NA,19,0.03374777975133215
+rcd_opportunities,Neither agree nor disagree,69,0.12255772646536411
+rcd_opportunities,Somewhat agree,215,0.38188277087033745
+rcd_opportunities,Somewhat disagree,87,0.15452930728241562
+rcd_opportunities,Strongly agree,152,0.2699822380106572
+rcd_opportunities,Strongly disagree,29,0.05150976909413854
+rcd_opportunities,NA,11,0.019538188277087035
+rcd_recommend,0,4,0.007104795737122558
+rcd_recommend,1,3,0.0053285968028419185
+rcd_recommend,10,121,0.21492007104795738
+rcd_recommend,2,15,0.02664298401420959
+rcd_recommend,3,14,0.02486678507992895
+rcd_recommend,4,13,0.023090586145648313
+rcd_recommend,5,39,0.06927175843694494
+rcd_recommend,6,42,0.07460035523978685
+rcd_recommend,7,77,0.13676731793960922
+rcd_recommend,8,131,0.23268206039076378
+rcd_recommend,9,92,0.16341030195381884
+rcd_recommend,NA,12,0.021314387211367674
+rcd_satisfaction,Extremely dissatisfied,5,0.008880994671403197
+rcd_satisfaction,Extremely satisfied,252,0.44760213143872113
+rcd_satisfaction,Neither satisfied nor dissatisfied,41,0.07282415630550622
+rcd_satisfaction,Somewhat dissatisfied,24,0.04262877442273535
+rcd_satisfaction,Somewhat satisfied,233,0.413854351687389
+rcd_satisfaction,NA,8,0.014209591474245116
+rcd_satisfied,FALSE,70,0.12433392539964476
+rcd_satisfied,TRUE,485,0.8614564831261101
+rcd_satisfied,NA,8,0.014209591474245116
+sex_orientation,A sexual orientation not listed here,2,0.003552397868561279
+sex_orientation,Asexual,13,0.023090586145648313
+sex_orientation,Bisexual,15,0.02664298401420959
+sex_orientation,Gay / Lesbian,19,0.03374777975133215
+sex_orientation,Heterosexual / Straight,435,0.7726465364120781
+sex_orientation,Pansexual,6,0.010657193605683837
+sex_orientation,Queer,13,0.023090586145648313
+sex_orientation,NA,60,0.10657193605683836
+us_perm,FALSE,26,0.046181172291296625
+us_perm,TRUE,519,0.9218472468916519
+us_perm,NA,18,0.03197158081705151
+white,FALSE,112,0.1989342806394316
+white,TRUE,447,0.7939609236234458
+white,NA,4,0.007104795737122558

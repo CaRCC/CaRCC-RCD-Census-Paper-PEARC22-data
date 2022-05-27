@@ -1,0 +1,564 @@
+employer_type,institution_type,institution_code,academic_institution,institution_combo_group,public_private
+Academic Institution or University,R1,i132,TRUE,R1 public,public
+Academic Institution or University,R1,i4,TRUE,R1 private,private
+Self-employed/Other,Other,i121,FALSE,Other,NA
+Company or Corporation,Company,i19,FALSE,Company,NA
+Academic Institution or University,R1,i67,TRUE,R1 public,public
+Academic Institution or University,R1,i52,TRUE,R1 public,public
+Academic Institution or University,R1,i164,TRUE,R1 public,public
+Academic Institution or University,R1,i90,TRUE,R1 public,public
+Academic Institution or University,R1,i1,TRUE,R1 public,public
+Academic Institution or University,R1,i110,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i30,TRUE,Other Academic private,private
+Self-employed/Other,NA,NA,NA,Unknown,NA
+Academic Institution or University,R1,i84,TRUE,R1 private,private
+Government/National Lab,Government,i157,FALSE,Government,NA
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R1,i144,TRUE,R1 private,private
+Academic Institution or University,R1,i132,TRUE,R1 public,public
+Academic Institution or University,R2,i76,TRUE,R2 private,private
+Academic Institution or University,R1,i95,TRUE,R1 public,public
+Academic Institution or University,R1,i36,TRUE,R1 private,private
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,Other,i121,FALSE,Other,NA
+Academic Institution or University,R1,i110,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i69,TRUE,R1 public,public
+Academic Institution or University,R1,i61,TRUE,R1 private,private
+Academic Institution or University,R1,i148,TRUE,R1 private,private
+Academic Institution or University,R1,i28,TRUE,R1 public,public
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R2,i159,TRUE,R2 public,public
+Government/National Lab,Government,i157,FALSE,Government,NA
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i103,TRUE,R1 public,public
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R1,i78,TRUE,R1 private,private
+Academic Institution or University,Other Academic,i160,TRUE,Other Academic public,public
+Academic Institution or University,R1,i14,TRUE,R1 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i123,TRUE,R1 private,private
+Academic Institution or University,Other Academic,i165,TRUE,Other Academic public,public
+Academic Institution or University,R2,i104,TRUE,R2 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Company or Corporation,Company,i94,FALSE,Company,NA
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Company or Corporation,NA,NA,NA,Unknown,NA
+Academic Institution or University,R1,i92,TRUE,R1 public,public
+Academic Institution or University,R1,i171,TRUE,R1 private,private
+Academic Institution or University,R1,i119,TRUE,R1 private,private
+Academic Institution or University,R1,i45,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i78,TRUE,R1 private,private
+Academic Institution or University,R1,i45,TRUE,R1 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i4,TRUE,R1 private,private
+Government/National Lab,NA,NA,NA,NA,NA
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R1,i138,TRUE,R1 public,public
+Academic Institution or University,R1,i96,TRUE,R1 public,public
+Company or Corporation,Company,i35,FALSE,Company,NA
+Academic Institution or University,R1,i132,TRUE,R1 public,public
+Academic Institution or University,R1,i164,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i71,TRUE,R1 public,public
+Academic Institution or University,R1,i69,TRUE,R1 public,public
+Academic Institution or University,R1,i31,TRUE,R1 public,public
+Academic Institution or University,R2,i159,TRUE,R2 public,public
+Academic Institution or University,R1,i12,TRUE,R1 public,public
+Academic Institution or University,R1,i47,TRUE,R1 public,public
+Academic Institution or University,R1,i171,TRUE,R1 private,private
+Academic Institution or University,R1,i85,TRUE,R1 public,public
+Self-employed/Other,Other,i121,FALSE,Other,NA
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i15,TRUE,R1 public,public
+Academic Institution or University,R1,i132,TRUE,R1 public,public
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,Medical,i114,FALSE,Medical,NA
+Academic Institution or University,R1,i91,TRUE,R1 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Academic Institution or University,R1,i15,TRUE,R1 public,public
+Academic Institution or University,R1,i110,TRUE,R1 public,public
+Academic Institution or University,R1,i15,TRUE,R1 public,public
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,R1,i37,TRUE,R1 public,public
+Academic Institution or University,R1,i84,TRUE,R1 private,private
+Academic Institution or University,R1,i67,TRUE,R1 public,public
+Academic Institution or University,R1,i14,TRUE,R1 public,public
+Academic Institution or University,R1,i36,TRUE,R1 private,private
+Academic Institution or University,R1,i11,TRUE,R1 public,public
+Academic Institution or University,R1,i111,TRUE,R1 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i11,TRUE,R1 public,public
+Academic Institution or University,R1,i154,TRUE,R1 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i141,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R2,i131,TRUE,R2 public,public
+Academic Institution or University,R1,i78,TRUE,R1 private,private
+Academic Institution or University,R2,i16,TRUE,R2 public,public
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i145,TRUE,R1 public,public
+Academic Institution or University,R1,i4,TRUE,R1 private,private
+Academic Institution or University,R2,i41,TRUE,R2 public,public
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R1,i119,TRUE,R1 private,private
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R2,i158,TRUE,R2 private,private
+Academic Institution or University,R1,i146,TRUE,R1 private,private
+Academic Institution or University,R1,i110,TRUE,R1 public,public
+Academic Institution or University,R1,i149,TRUE,R1 private,private
+Academic Institution or University,Medical,i167,FALSE,Medical,NA
+Academic Institution or University,R1,i70,TRUE,R1 private,private
+Academic Institution or University,R1,i128,TRUE,R1 public,public
+Non-academic Non-profit,Other,i58,FALSE,Other,NA
+Academic Institution or University,R1,i103,TRUE,R1 public,public
+Non-academic Non-profit,Other,i23,FALSE,Other,NA
+Academic Institution or University,R1,i61,TRUE,R1 private,private
+Academic Institution or University,R2,i137,TRUE,R2 public,public
+Academic Institution or University,R1,i81,TRUE,R1 public,public
+Academic Institution or University,R1,i91,TRUE,R1 public,public
+Academic Institution or University,R1,i15,TRUE,R1 public,public
+Academic Institution or University,R1,i96,TRUE,R1 public,public
+Academic Institution or University,R1,i2,TRUE,R1 public,public
+Academic Institution or University,R2,i125,TRUE,R2 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Self-employed/Other,Medical,i89,FALSE,Medical,NA
+Academic Institution or University,R1,i56,TRUE,R1 public,public
+Academic Institution or University,R1,i95,TRUE,R1 public,public
+Academic Institution or University,NA,NA,NA,NA,NA
+Non-academic Non-profit,Other,i121,FALSE,Other,NA
+Academic Institution or University,R1,i42,TRUE,R1 private,private
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R1,i97,TRUE,R1 private,private
+Academic Institution or University,R1,i81,TRUE,R1 public,public
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R1,i171,TRUE,R1 private,private
+Academic Institution or University,R1,i113,TRUE,R1 private,private
+Academic Institution or University,R1,i103,TRUE,R1 public,public
+Academic Institution or University,R2,i41,TRUE,R2 public,public
+NA,NA,NA,NA,NA,NA
+Academic Institution or University,Academic Computing Center,i80,TRUE,Academic Computing Center,NA
+Academic Institution or University,R1,i73,TRUE,R1 private,private
+Academic Institution or University,R1,i11,TRUE,R1 public,public
+Academic Institution or University,R2,i18,TRUE,R2 public,public
+Academic Institution or University,Medical,i163,FALSE,Medical,NA
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i29,TRUE,R1 public,public
+Academic Institution or University,R1,i126,TRUE,R1 public,public
+Academic Institution or University,R1,i96,TRUE,R1 public,public
+Academic Institution or University,R2,i20,TRUE,R2 public,public
+Academic Institution or University,Academic Computing Center,i34,TRUE,Academic Computing Center,NA
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Academic Institution or University,R1,i4,TRUE,R1 private,private
+Academic Institution or University,R2,i22,TRUE,R2 public,public
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i11,TRUE,R1 public,public
+Academic Institution or University,R2,i40,TRUE,R2 public,public
+Academic Institution or University,Medical,i64,FALSE,Medical,NA
+Academic Institution or University,R1,i132,TRUE,R1 public,public
+Academic Institution or University,R2,i65,TRUE,R2 public,public
+Academic Institution or University,R1,i85,TRUE,R1 public,public
+Academic Institution or University,R1,i2,TRUE,R1 public,public
+Academic Institution or University,R1,i101,TRUE,R1 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,R1,i129,TRUE,R1 public,public
+Non-academic Non-profit,Other,i86,FALSE,Other,NA
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Government/National Lab,Other,i121,FALSE,Other,NA
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Self-employed/Other,NA,NA,NA,Unknown,NA
+Academic Institution or University,R1,i25,TRUE,R1 public,public
+Academic Institution or University,R1,i111,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i63,TRUE,Other Academic private,private
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+NA,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i90,TRUE,R1 public,public
+Self-employed/Other,Other,i58,FALSE,Other,NA
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i129,TRUE,R1 public,public
+Academic Institution or University,R1,i4,TRUE,R1 private,private
+Academic Institution or University,R1,i101,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i21,TRUE,Other Academic private,private
+Academic Institution or University,R1,i98,TRUE,R1 public,public
+Government/National Lab,Other,i121,FALSE,Other,NA
+Academic Institution or University,R1,i126,TRUE,R1 public,public
+Academic Institution or University,R1,i8,TRUE,R1 private,private
+Government/National Lab,Government,i3,FALSE,Government,NA
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R2,i59,TRUE,R2 public,public
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,R1,i78,TRUE,R1 private,private
+Academic Institution or University,R1,i67,TRUE,R1 public,public
+Academic Institution or University,R1,i132,TRUE,R1 public,public
+Academic Institution or University,R1,i6,TRUE,R1 public,public
+Academic Institution or University,R1,i14,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i5,TRUE,Other Academic public,public
+Non-academic Non-profit,Other,i121,FALSE,Other,NA
+Academic Institution or University,R1,i79,TRUE,R1 public,public
+Academic Institution or University,R1,i129,TRUE,R1 public,public
+Academic Institution or University,R1,i101,TRUE,R1 public,public
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R2,i18,TRUE,R2 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,R1,i6,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i165,TRUE,Other Academic public,public
+Academic Institution or University,R2,i50,TRUE,R2 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i172,TRUE,R1 private,private
+Company or Corporation,Company,i83,FALSE,Company,NA
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Company or Corporation,Other,i10,FALSE,Other,NA
+Academic Institution or University,R1,i145,TRUE,R1 public,public
+Academic Institution or University,NA,NA,NA,Unknown,NA
+Academic Institution or University,R1,i132,TRUE,R1 public,public
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+NA,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i146,TRUE,R1 private,private
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i129,TRUE,R1 public,public
+Academic Institution or University,R1,i151,TRUE,R1 public,public
+Academic Institution or University,R1,i96,TRUE,R1 public,public
+Academic Institution or University,R1,i2,TRUE,R1 public,public
+Academic Institution or University,R1,i115,TRUE,R1 public,public
+Academic Institution or University,R1,i2,TRUE,R1 public,public
+Academic Institution or University,R1,i61,TRUE,R1 private,private
+Academic Institution or University,R1,i11,TRUE,R1 public,public
+Company or Corporation,Company,i60,FALSE,Company,NA
+Academic Institution or University,R1,i15,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i38,TRUE,Other Academic private,private
+Academic Institution or University,R1,i111,TRUE,R1 public,public
+Academic Institution or University,R1,i143,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i48,TRUE,Other Academic public,public
+Academic Institution or University,R1,i4,TRUE,R1 private,private
+Academic Institution or University,R1,i70,TRUE,R1 private,private
+Academic Institution or University,R1,i36,TRUE,R1 private,private
+Academic Institution or University,R2,i44,TRUE,R2 public,public
+Government/National Lab,Government,i117,FALSE,Government,NA
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Government/National Lab,Government,i157,FALSE,Government,NA
+Academic Institution or University,R1,i141,TRUE,R1 public,public
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i15,TRUE,R1 public,public
+Academic Institution or University,R1,i95,TRUE,R1 public,public
+Academic Institution or University,R1,i98,TRUE,R1 public,public
+Academic Institution or University,R1,i146,TRUE,R1 private,private
+Non-academic Non-profit,Other,i121,FALSE,Other,NA
+Academic Institution or University,R2,i99,TRUE,R2 public,public
+Academic Institution or University,R1,i91,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i135,TRUE,Other Academic private,private
+Academic Institution or University,R1,i79,TRUE,R1 public,public
+Government/National Lab,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+Academic Institution or University,Medical,i55,FALSE,Medical,NA
+NA,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i128,TRUE,R1 public,public
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,Other Academic,i142,TRUE,Other Academic private,private
+Academic Institution or University,R1,i123,TRUE,R1 private,private
+Academic Institution or University,R1,i132,TRUE,R1 public,public
+Academic Institution or University,R1,i171,TRUE,R1 private,private
+Academic Institution or University,R1,i172,TRUE,R1 private,private
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,R1,i15,TRUE,R1 public,public
+Academic Institution or University,R1,i101,TRUE,R1 public,public
+Academic Institution or University,R1,i14,TRUE,R1 public,public
+Academic Institution or University,R1,i1,TRUE,R1 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i93,TRUE,R1 public,public
+Academic Institution or University,R1,i43,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i124,TRUE,Other Academic private,private
+Academic Institution or University,Medical,i55,FALSE,Medical,NA
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R2,i32,TRUE,R2 public,public
+Academic Institution or University,R1,i119,TRUE,R1 private,private
+Academic Institution or University,R1,i138,TRUE,R1 public,public
+Company or Corporation,Company,i88,FALSE,Company,NA
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i140,TRUE,R1 private,private
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i11,TRUE,R1 public,public
+Academic Institution or University,R1,i113,TRUE,R1 private,private
+Academic Institution or University,Medical,i64,FALSE,Medical,NA
+Academic Institution or University,R1,i151,TRUE,R1 public,public
+Academic Institution or University,R1,i164,TRUE,R1 public,public
+Academic Institution or University,Academic Computing Center,i108,TRUE,Academic Computing Center,NA
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Non-academic Non-profit,Other,i58,FALSE,Other,NA
+Academic Institution or University,R1,i1,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i119,TRUE,R1 private,private
+Academic Institution or University,R1,i136,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i165,TRUE,Other Academic public,public
+Academic Institution or University,Medical,i55,FALSE,Medical,NA
+Academic Institution or University,R1,i15,TRUE,R1 public,public
+Academic Institution or University,Medical,i55,FALSE,Medical,NA
+Government/National Lab,Government,i157,FALSE,Government,NA
+Academic Institution or University,R1,i144,TRUE,R1 private,private
+Academic Institution or University,R1,i113,TRUE,R1 private,private
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Academic Institution or University,R2,i109,TRUE,R2 public,public
+Academic Institution or University,R1,i103,TRUE,R1 public,public
+Non-academic Non-profit,Other,i121,FALSE,Other,NA
+Academic Institution or University,R1,i62,TRUE,R1 public,public
+Academic Institution or University,R1,i95,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i130,TRUE,Other Academic public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i148,TRUE,R1 private,private
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i123,TRUE,R1 private,private
+Academic Institution or University,R1,i111,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i91,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i165,TRUE,Other Academic public,public
+Academic Institution or University,Other Academic,i120,TRUE,Other Academic public,public
+Academic Institution or University,R1,i75,TRUE,R1 private,private
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R2,i158,TRUE,R2 private,private
+Academic Institution or University,R2,i169,TRUE,R2 public,public
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i103,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R2,i57,TRUE,R2 private,private
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i92,TRUE,R1 public,public
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R2,i27,TRUE,R2 private,private
+Academic Institution or University,Other Academic,i135,TRUE,Other Academic private,private
+Government/National Lab,Academic Computing Center,i34,TRUE,Academic Computing Center,NA
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R1,i82,TRUE,R1 public,public
+Non-academic Non-profit,Other,i23,FALSE,Other,NA
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R2,i99,TRUE,R2 public,public
+Government/National Lab,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA
+Government/National Lab,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i146,TRUE,R1 private,private
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i126,TRUE,R1 public,public
+Academic Institution or University,R1,i171,TRUE,R1 private,private
+Academic Institution or University,Other Academic,i173,TRUE,Other Academic private,private
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R2,i168,TRUE,R2 public,public
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i148,TRUE,R1 private,private
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Non-academic Non-profit,Medical,i175,FALSE,Medical,NA
+Company or Corporation,Company,i118,FALSE,Company,NA
+Academic Institution or University,R1,i152,TRUE,R1 public,public
+Academic Institution or University,R1,i49,TRUE,R1 public,public
+Academic Institution or University,R1,i129,TRUE,R1 public,public
+Academic Institution or University,R1,i62,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Self-employed/Other,NA,NA,NA,Unknown,NA
+Academic Institution or University,R1,i134,TRUE,R1 public,public
+Academic Institution or University,Academic Computing Center,i17,TRUE,Academic Computing Center,NA
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Government/National Lab,Other,i10,FALSE,Other,NA
+Academic Institution or University,R2,i147,TRUE,R2 public,public
+Academic Institution or University,Other,i121,FALSE,Other,NA
+Academic Institution or University,R2,i50,TRUE,R2 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i145,TRUE,R1 public,public
+Academic Institution or University,R1,i106,TRUE,R1 private,private
+Academic Institution or University,R1,i4,TRUE,R1 private,private
+Academic Institution or University,R2,i158,TRUE,R2 private,private
+Academic Institution or University,R2,i99,TRUE,R2 public,public
+Self-employed/Other,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i62,TRUE,R1 public,public
+Academic Institution or University,R1,i37,TRUE,R1 public,public
+Academic Institution or University,Medical,i114,FALSE,Medical,NA
+Academic Institution or University,R1,i62,TRUE,R1 public,public
+Academic Institution or University,R1,i28,TRUE,R1 public,public
+Academic Institution or University,R1,i93,TRUE,R1 public,public
+Academic Institution or University,R1,i51,TRUE,R1 public,public
+Academic Institution or University,R2,i50,TRUE,R2 public,public
+Academic Institution or University,R2,i158,TRUE,R2 private,private
+Academic Institution or University,R1,i95,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i135,TRUE,Other Academic private,private
+Academic Institution or University,Medical,i55,FALSE,Medical,NA
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R1,i110,TRUE,R1 public,public
+Academic Institution or University,R1,i171,TRUE,R1 private,private
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Government/National Lab,Other,i121,FALSE,Other,NA
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i145,TRUE,R1 public,public
+Academic Institution or University,R1,i119,TRUE,R1 private,private
+Non-academic Non-profit,Medical,i156,FALSE,Medical,NA
+Academic Institution or University,Academic Computing Center,i34,TRUE,Academic Computing Center,NA
+Academic Institution or University,R1,i47,TRUE,R1 public,public
+Academic Institution or University,R1,i37,TRUE,R1 public,public
+Academic Institution or University,R1,i145,TRUE,R1 public,public
+Academic Institution or University,R1,i174,TRUE,R1 public,public
+Academic Institution or University,R2,i87,TRUE,R2 public,public
+Academic Institution or University,R1,i146,TRUE,R1 private,private
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R2,i137,TRUE,R2 public,public
+Academic Institution or University,R1,i106,TRUE,R1 private,private
+Academic Institution or University,R1,i119,TRUE,R1 private,private
+Academic Institution or University,R1,i13,TRUE,R1 private,private
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i45,TRUE,R1 public,public
+Academic Institution or University,R2,i74,TRUE,R2 public,public
+Academic Institution or University,Other,i58,FALSE,Other,NA
+Academic Institution or University,R1,i102,TRUE,R1 public,public
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Academic Institution or University,R1,i29,TRUE,R1 public,public
+Government/National Lab,Government,i46,FALSE,Government,NA
+Academic Institution or University,R1,i51,TRUE,R1 public,public
+Academic Institution or University,R1,i151,TRUE,R1 public,public
+Academic Institution or University,R1,i49,TRUE,R1 public,public
+Academic Institution or University,R1,i61,TRUE,R1 private,private
+Academic Institution or University,R1,i53,TRUE,R1 private,private
+Academic Institution or University,R1,i107,TRUE,R1 private,private
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,R1,i13,TRUE,R1 private,private
+Academic Institution or University,R1,i149,TRUE,R1 private,private
+Academic Institution or University,Other Academic,i162,TRUE,Other Academic private,private
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R2,i44,TRUE,R2 public,public
+Non-academic Non-profit,Other,i121,FALSE,Other,NA
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,Other Academic,i116,TRUE,Other Academic public,public
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Academic Institution or University,Medical,i114,FALSE,Medical,NA
+Academic Institution or University,R1,i111,TRUE,R1 public,public
+Academic Institution or University,Medical,i105,FALSE,Medical,NA
+Academic Institution or University,Medical,i64,FALSE,Medical,NA
+Academic Institution or University,Academic Computing Center,i127,TRUE,Academic Computing Center,NA
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R2,i125,TRUE,R2 public,public
+Academic Institution or University,Other Academic,i72,TRUE,Other Academic public,public
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,Academic Computing Center,i108,TRUE,Academic Computing Center,NA
+Academic Institution or University,R1,i111,TRUE,R1 public,public
+Academic Institution or University,R1,i129,TRUE,R1 public,public
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R1,i66,TRUE,R1 public,public
+Academic Institution or University,R1,i98,TRUE,R1 public,public
+Academic Institution or University,Academic Computing Center,i34,TRUE,Academic Computing Center,NA
+Academic Institution or University,Other Academic,i135,TRUE,Other Academic private,private
+Academic Institution or University,R2,i39,TRUE,R2 private,private
+Academic Institution or University,R1,i113,TRUE,R1 private,private
+Non-academic Non-profit,R1,i62,TRUE,R1 public,public
+Academic Institution or University,R1,i71,TRUE,R1 public,public
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R1,i14,TRUE,R1 public,public
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Academic Institution or University,R2,i133,TRUE,R2 public,public
+Academic Institution or University,R1,i126,TRUE,R1 public,public
+Academic Institution or University,R1,i95,TRUE,R1 public,public
+Academic Institution or University,R1,i166,TRUE,R1 private,private
+Company or Corporation,Company,i24,FALSE,Company,NA
+Academic Institution or University,Other Academic,i5,TRUE,Other Academic public,public
+Academic Institution or University,R1,i6,TRUE,R1 public,public
+Academic Institution or University,R1,i126,TRUE,R1 public,public
+Academic Institution or University,R1,i62,TRUE,R1 public,public
+Academic Institution or University,R1,i172,TRUE,R1 private,private
+Academic Institution or University,R2,i159,TRUE,R2 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i92,TRUE,R1 public,public
+Academic Institution or University,R2,i57,TRUE,R2 private,private
+Academic Institution or University,R1,i111,TRUE,R1 public,public
+NA,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i103,TRUE,R1 public,public
+Academic Institution or University,R1,i171,TRUE,R1 private,private
+Academic Institution or University,R2,i44,TRUE,R2 public,public
+Academic Institution or University,Other,i121,FALSE,Other,NA
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Government/National Lab,Government,i161,FALSE,Government,NA
+Academic Institution or University,R1,i37,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i112,TRUE,R1 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Academic Institution or University,R1,i111,TRUE,R1 public,public
+Academic Institution or University,R1,i90,TRUE,R1 public,public
+Academic Institution or University,R1,i122,TRUE,R1 public,public
+Company or Corporation,Company,i60,FALSE,Company,NA
+Academic Institution or University,R1,i54,TRUE,R1 public,public
+Academic Institution or University,R1,i97,TRUE,R1 private,private
+Academic Institution or University,R1,i111,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i138,TRUE,R1 public,public
+Self-employed/Other,Other,i100,FALSE,Other,NA
+Academic Institution or University,Medical,i150,FALSE,Medical,NA
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i31,TRUE,R1 public,public
+Academic Institution or University,R1,i146,TRUE,R1 private,private
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R2,i65,TRUE,R2 public,public
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i9,TRUE,R1 public,public
+Academic Institution or University,R2,i125,TRUE,R2 public,public
+Non-academic Non-profit,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i28,TRUE,R1 public,public
+Academic Institution or University,R1,i170,TRUE,R1 public,public
+Non-academic Non-profit,Other,i121,FALSE,Other,NA
+Government/National Lab,Other,i121,FALSE,Other,NA
+Academic Institution or University,R1,i68,TRUE,R1 private,private
+Academic Institution or University,R1,i75,TRUE,R1 private,private
+Academic Institution or University,Other Academic,i139,TRUE,Other Academic public,public
+Academic Institution or University,R1,i126,TRUE,R1 public,public
+Academic Institution or University,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i71,TRUE,R1 public,public
+Company or Corporation,Other,i10,FALSE,Other,NA
+Academic Institution or University,R1,i110,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i119,TRUE,R1 private,private
+Academic Institution or University,R1,i6,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R2,i7,TRUE,R2 private,private
+Academic Institution or University,R1,i33,TRUE,R1 private,private
+Academic Institution or University,R1,i90,TRUE,R1 public,public
+NA,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i164,TRUE,R1 public,public
+Government/National Lab,Other,i153,FALSE,Other,NA
+Academic Institution or University,R1,i77,TRUE,R1 public,public
+Academic Institution or University,R1,i37,TRUE,R1 public,public
+Academic Institution or University,R1,i36,TRUE,R1 private,private
+Academic Institution or University,R2,i41,TRUE,R2 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i132,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Academic Institution or University,R1,i26,TRUE,R1 public,public
+Company or Corporation,NA,NA,NA,NA,NA
+Academic Institution or University,R1,i172,TRUE,R1 private,private
+Academic Institution or University,R1,i8,TRUE,R1 private,private

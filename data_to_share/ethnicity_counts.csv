@@ -1,0 +1,34 @@
+group,variable,category,n
+Not White,rcd_recommend,7,14
+White,management_staff_role,FALSE,232
+Not White,management_staff_role,FALSE,55
+Not White,rcd_recommend,6,12
+Not White,rcd_recommend,8,18
+White,management_staff_role,TRUE,102
+White,promoted,FALSE,233
+Not White,rcd_recommend,4,3
+White,rcd_recommend,8,108
+White,rcd_recommend,7,61
+White,rcd_recommend,6,30
+White,promoted,TRUE,200
+Not White,rcd_recommend,5,11
+Not White,management_staff_role,TRUE,27
+Not White,supervise_staff,TRUE,39
+White,rcd_recommend,4,9
+White,rcd_recommend,3,11
+Not White,rcd_recommend,3,3
+Not White,promoted,FALSE,60
+Not White,rcd_recommend,10,21
+White,supervise_staff,TRUE,159
+Not White,supervise_staff,FALSE,63
+White,supervise_staff,FALSE,273
+White,rcd_recommend,10,96
+Not White,rcd_recommend,0,1
+White,rcd_recommend,2,10
+Not White,rcd_recommend,9,12
+White,rcd_recommend,9,80
+Not White,promoted,TRUE,42
+Not White,rcd_recommend,2,4
+Not White,rcd_recommend,1,1
+White,rcd_recommend,0,2
+White,rcd_recommend,5,23

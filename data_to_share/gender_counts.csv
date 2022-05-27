@@ -1,0 +1,60 @@
+gender,variable,category,n
+Female,management_staff_role,TRUE,30
+Male,promoted,FALSE,212
+Male,position_type,Faculty,14
+Male,position_type,Staff,294
+Male,rcd_recommend,3,9
+Male,position_category,Lead/principal individual contributor,57
+Female,position_category,Lead/principal individual contributor,15
+Male,position_category,Other/Unknown,6
+Male,position_category,Director,55
+Female,management_staff_role,FALSE,96
+Female,position_category,Manager,11
+Male,position_type,Student position / internship,5
+Female,rcd_recommend,3,3
+Female,promoted,FALSE,68
+Male,rcd_recommend,2,10
+Male,position_category,Manager,53
+Female,rcd_recommend,9,20
+Female,rcd_recommend,8,32
+Male,rcd_recommend,8,89
+Male,position_type,"Other Academic (incl. Research Faculty, Postdocs)",28
+Male,rcd_recommend,4,9
+Male,rcd_recommend,0,2
+Female,position_type,Student position / internship,3
+Male,management_staff_role,TRUE,116
+Female,rcd_recommend,4,3
+Male,position_category,Faculty,30
+Female,rcd_recommend,10,29
+Female,position_category,Faculty,7
+Male,supervise_staff,FALSE,232
+Female,position_type,Faculty,9
+Male,position_category,Senior individual contributor,89
+Male,position_category,"AVP, VP, CIO, or other senior leader",8
+Female,supervise_staff,FALSE,87
+Female,supervise_staff,TRUE,38
+Female,position_type,"Other Academic (incl. Research Faculty, Postdocs)",5
+Male,rcd_recommend,7,55
+Male,position_category,Student position / internship,5
+Female,position_category,"AVP, VP, CIO, or other senior leader",1
+Female,rcd_recommend,6,10
+Female,position_category,Director,18
+Female,position_category,Senior individual contributor,23
+Female,rcd_recommend,2,2
+Male,rcd_recommend,10,85
+Female,position_category,Other/Unknown,5
+Female,rcd_recommend,7,16
+Male,position_category,Individual contributor,81
+Female,rcd_recommend,5,8
+Male,rcd_recommend,5,25
+Male,management_staff_role,FALSE,268
+Female,promoted,TRUE,58
+Male,rcd_recommend,1,1
+Male,promoted,TRUE,171
+Female,position_type,Staff,100
+Female,rcd_recommend,0,1
+Male,supervise_staff,TRUE,151
+Male,rcd_recommend,6,30
+Female,position_category,Individual contributor,43
+Male,rcd_recommend,9,66
+Female,position_category,Student position / internship,3
