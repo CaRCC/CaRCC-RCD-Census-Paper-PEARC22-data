@@ -1,6 +1,6 @@
 # Characterizing the US Research Computing and Data (RCD) Workforce Analysis
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MiddelkoopT/CaRCC-RCD-Census-Paper-PEARC22-data.git/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MiddelkoopT/CaRCC-RCD-Census-Paper-PEARC22-data.git/HEAD?labpath=rstudio)
 
 Data sets to accompany "Characterizing the US Research Computing and Data (RCD) Workforce"
 

@@ -5,3 +5,4 @@ dependencies:
   - r-tidyverse
   - r-janitor
   - r-knitr
+  - r-markdown
