@@ -1,6 +1,7 @@
 # Binder
 /.bash_logout
 /.bashrc
+/.bash_history
 /.conda/
 /.config/
 /.jupyter-server-log.txt
@@ -9,11 +10,14 @@
 /.profile
 /.subversion/
 /.ipynb_checkpoints/
+/.Renviron
+/.Rhistory
+/.Rproj.user
 # Data
 /data/
+/tmp/
 # Dev
 /.vscode/
 /.venv/
-/.Renviron
-/tmp/
 # Local
+/public_analysis.html
