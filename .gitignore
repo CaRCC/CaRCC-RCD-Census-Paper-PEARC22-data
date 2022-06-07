@@ -3,6 +3,7 @@
 /.bashrc
 /.bash_history
 /.conda/
+/.venv/
 /.config/
 /.jupyter-server-log.txt
 /.jupyter/
@@ -10,14 +11,14 @@
 /.profile
 /.subversion/
 /.ipynb_checkpoints/
+/.R
 /.Renviron
 /.Rhistory
 /.Rproj.user
-# Data
-/data/
-/tmp/
 # Dev
 /.vscode/
 /.venv/
 # Local
+/tmp/
+local.sh
 /public_analysis.html
