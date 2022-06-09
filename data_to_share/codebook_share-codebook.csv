@@ -1,0 +1,115 @@
+﻿variable_name,label,type,data_type,description,original_question_text,notes
+age,Age,demographic,ordered categorical,,What is your age?,
+gender,Gender,demographic,categorical,,Which of these best describes your current gender identity?,"""Gender nonconforming / genderqueer"" and ""Non-binary / third gender"" categories were combined to protect anonymity.  Non-responses were combined with ""Other / Prefer not to say"" responses as ""Other/No Answer"""
+male,Male,demographic,logical,"indicator of gender == ""Male""",Which of these best describes your current gender identity?,
+ethnicity1,Race/Ethnicity,demographic,categorical,"All respondents are coded in a single category of this variable, which combines responses from two survey questions.","Which racial/ethnic group do you identify as?  Are you of Hispanic, Latino, or Spanish origin?","There were non-white respondents who identified as Hispanic, however these respondents are not identified via this variable to protect anonymity.  Non-responses on the question of Hispanic origin were included in the ""White (Not Hispanic)"" category."
+white,White,demographic,logical,"Respondents who chose ""White"" in response to Which racial/ethnic group do you identify as? or respondents to indicated White as part of an ""Other"" response to that question.",Which racial/ethnic group do you identify as?,
+asian,Asian,demographic,logical,"Respondents who chose ""Asian"" in response to Which racial/ethnic group do you identify as? or respondents to indicated Asian as part of an ""Other"" response to that question.",Which racial/ethnic group do you identify as?,
+hispanic,Hispanic,demographic,logical,,"Are you of Hispanic, Latino, or Spanish origin?",
+us_perm,US Citizen/Permanent Resident,demographic,logical,,Are you a citizen or permanent resident of the United States of America?,
+sex_orientation,Sexual Orientation,demographic,categorical,,Which of these best describes your current sexual orientation?,
+heterosexual,Heterosexual,demographic,logical,"Respondents who indicated ""Heterosexual / Straight"" as their sexual orientation.  ""False"" values of this variable indicate that the respondent reported a different sexual orientation.",Which of these best describes your current sexual orientation?,
+disability,Has a Disability,demographic,logical,,Do you have a disability?,
+education,Education,experience,ordered categorical,Highest educational level completed,What is the highest degree you have earned?,Some response categories were combined to protect anonymity.
+experience_rcd,Years of RCD Experience,experience,numeric,,How many years of work experience do you have as a Research Computing and Data (RCD) professional?,
+experience_work,Years of Work Experience (Total),experience,numeric,,"How many years of work experience do you have in total, including both RCD and non-RCD experience?",There are a few cases where the value reported for this question was larger than the value reported for experience_rcd; these discrepencies were preserved.
+experience_rcd_only,All Work Experience in RCD,experience,logical,Whether all of a respondent's years of work experience are in the RCD field,,Whether experience_rcd_prop = 1
+experience_non_academic_rcd,Non-Academic RCD Work Experience,experience,logical,Whether the respondent indicates any experience with RCD positions outside of academia,,Whether experience_rcd > experience_rcd_academic
+experience_academic,Academic,experience,logical,,Which types of organizations have you worked for? Academic Institution or University,
+experience_nonprofit,Non-Profit,experience,logical,,Which types of organizations have you worked for? Non-academic Non-profit,
+experience_lab,National Lab,experience,logical,,Which types of organizations have you worked for? Federal National Laboratory,
+experience_gov,Government,experience,logical,,Which types of organizations have you worked for? Government,
+experience_corporate,Corporate,experience,logical,,Which types of organizations have you worked for? Company or Corporation,
+experience_self,Self-employment,experience,logical,,Which types of organizations have you worked for? Self-employed,
+education_field_arts,Arts and Humanities,experience,logical,,"Which of these best describes the field, content area, or domain of your formal education? Arts, Humanities","Includes ""Other"" responses where the indicated field fits this area."
+education_field_computer,Computer and Information Sciences,experience,logical,,"Which of these best describes the field, content area, or domain of your formal education? Computer and Information Sciences","Includes ""Other"" responses where the indicated field fits this area."
+education_field_engineering,Engineering,experience,logical,,"Which of these best describes the field, content area, or domain of your formal education? Engineering","Includes ""Other"" responses where the indicated field fits this area."
+education_field_ljbe,"Law, Journalism, Business, Education",experience,logical,,"Which of these best describes the field, content area, or domain of your formal education? Law, Journalism, Business, Education","Includes ""Other"" responses where the indicated field fits this area."
+education_field_life,Life and Health Sciences,experience,logical,,"Which of these best describes the field, content area, or domain of your formal education? Life and Health Sciences","Includes ""Other"" responses where the indicated field fits this area."
+education_field_math,"Math, Statistics",experience,logical,,"Which of these best describes the field, content area, or domain of your formal education? Math, Statistics","Includes ""Other"" responses where the indicated field fits this area."
+education_field_physical,Physical Sciences,experience,logical,,"Which of these best describes the field, content area, or domain of your formal education? Physical Sciences","Includes ""Other"" responses where the indicated field fits this area."
+education_field_social,"Social, Econoimc, and Behavioral Sciences",experience,logical,,"Which of these best describes the field, content area, or domain of your formal education? Social, Economic, and Behavioral Sciences","Includes ""Other"" responses where the indicated field fits this area."
+education_field_earth,Earth and Environmental Sciences (Write-in),experience,logical,,"Which of these best describes the field, content area, or domain of your formal education?","Other responses including earth and environemental science, GIS/geography"
+education_field_other,Other,experience,logical,,"Which of these best describes the field, content area, or domain of your formal education? Other","Only includes ""Other"" responses that were not recoded to named categories."
+education_field_sochum,"Education: Social Sciences, Arts, Humanities",experience,logical,,"Which of these best describes the field, content area, or domain of your formal education?","Education in a social science, arts, or humanities field."
+education_field_count,Education: Number of Fields,experience,numeric,,"Which of these best describes the field, content area, or domain of your formal education?",Count of the number of different fields selected
+education_related,Employment Related to Education,experience,ordered categorical,,To what extent is your current work related to the domain of your formal education?,
+rcd_employed,Current RCD Position,current,categorical,,Are you currently employed in a position that includes Research Computing and Data (RCD) responsibilities?,
+employer_type,Current Employer Type,current,categorical,,What type of organization is your primary employer?,
+institution_code,Institution ID,current,text,anonymized institution code,"What is the name of the institution, organization, or company that is your primary employer?",
+institution_type,Institution Type,current,text,Standardized value,,
+academic_institution,Academic Institution,current,categorical,"Institution type in ""Academic Computing Center"", ""R1"", ""R2"", ""Other Academic""",,
+public_private,Academic Institution Public/Private,current,categorical,"Standardized value, valid for academic institutions",,
+institution_combo_group,Institution Group,current,categorical,Standardized value breaking down academic institution types into groups,,
+onsite_remote,Onsite/Remote Work,current,categorical,,Where do you normally work (when pandemic work restrictions are not in place)?,
+job_title_official,Reported Official Job Title,current,logical,Whether a job title was provided,What is your official job title(s) on record with human resources?,
+job_title_alternate,Reported Alternate Job Title,current,logical,Whether a an alternate job title was provided,"If you commonly use a job title(s) other than your official one, or have a different working job title, what is it?",
+job_analyst,Analyst,current,logical,"One of the job titles matches regex ""analyst""",,
+job_application,Application,current,logical,"One of the job titles matches regex ""application""",,
+job_architect,Architect,current,logical,"One of the job titles matches regex ""architect""",,
+job_compute,Comput*,current,logical,"One of the job titles matches regex ""comput""",,
+job_consult,Consult,current,logical,"One of the job titles matches regex ""consult""",,
+job_data,Data,current,logical,"One of the job titles matches regex ""data""",,
+job_datascience,Data Science,current,logical,"One of the job titles matches regex ""data science""",,
+job_director,Director,current,logical,"One of the job titles matches regex ""director""",,
+job_engineer,Engineer,current,logical,"One of the job titles matches regex ""engineer""",,
+job_facilitate,Facilitat*,current,logical,"One of the job titles matches regex ""facilitat""",,
+job_hpc,HPC|High Performance,current,logical,"One of the job titles matches regex ""hpc|high.performance""",,
+job_info,Information|IT,current,logical,"One of the job titles matches regex ""information|\\bit\\b""",,
+job_informatic,Informatic*,current,logical,"One of the job titles matches regex ""informatic""",,
+job_infrastructure,Infrastructure,current,logical,"One of the job titles matches regex ""infrastructure""",,
+job_lead,Lead,current,logical,"One of the job titles matches regex ""lead""",,
+job_library,Librar*,current,logical,"One of the job titles matches regex ""librar""",,
+job_manager,Manager,current,logical,"One of the job titles matches regex ""manager""",,
+job_professor,Professor,current,logical,"One of the job titles matches regex ""professor""",,
+job_research,Research,current,logical,"One of the job titles matches regex ""research""",,
+job_scientist,Scientist,current,logical,"One of the job titles matches regex ""scientist""",,
+job_senior,Senior,current,logical,"One of the job titles matches regex ""senior|\\bsr\\b""",,
+job_services,Services,current,logical,"One of the job titles matches regex ""services""",,
+job_software,Software,current,logical,"One of the job titles matches regex ""software""",,
+job_specialist,Specialist,current,logical,"One of the job titles matches regex ""specialist""",,
+job_sysadmin,System Admin,current,logical,"One of the job titles matches regex ""Sys.{0,20}Admin""",,
+job_system,System,current,logical,"One of the job titles matches regex ""system""",,
+position_type,Position Type,current,categorical,,Which of these best describes how your position is classified?,"Recoded ""Other"" responses; combined Other, Postdoc, and Research Faculty responses"
+position_category,Position Category,current,categorical,Combined categorization based on position type and level,,
+management_staff_role,Management Staff Position,current,logical,"""Manager"",""Director"",""AVP, VP, CIO, or other senior leader"" from position_category",,
+position_fulltime,Full-time Position,current,logical,,Which best describes the type of your position?,
+position_hourly,Hourly Pay,current,logical,,Which best describes the type of your position?,
+position_group_rc,"""Research Computing"" Group",current,logical,,"Whether the group name contains ""Research Computing""",
+rcd_satisfaction,Satisfaction with RCD field,field,ordered categorical,,"In general, how satisfied are you with working in the RCD field?",
+rcd_satisfied,Satisfied with RCD field,field,logical,,"In general, how satisfied are you with working in the RCD field?",
+rcd_recommend,Recommend Position (1-10),field,numeric,,"On a scale from 0-10, how likely are you to recommend a position like your current or most recent RCD position to a friend or colleague?",
+rcd_last_applied,Last Time Applied RCD Position,field,ordered categorical,,When is the last time you applied for a new RCD job position?,
+any_last_applied,Last Time Applied non-RCD Position,field,ordered categorical,,When is the last time you applied for a new job position outside of RCD?,
+rcd_opportunities,RCD Opportunities,field,ordered categorical,,What is your view of the RCD field? - There are many opportunities for me within my chosen career path,
+rcd_future,RCD Future,field,ordered categorical,,What is your view of the RCD field? - I have a future in the RCD field,
+rcd_included,RCD Included,field,ordered categorical,,What is your view of the RCD field? - I feel included and welcome in the RCD field,
+supervise_student_workers,Supervise Student Workers,responsibilities,logical,,Does your position include management or supervisory responsibilities?  Select all that apply - Supervising student workers or interns,
+supervise_staff,Supervise Staff,responsibilities,logical,,Does your position include management or supervisory responsibilities?  Select all that apply - Supervising staff,
+position_funding,Position Funding,current,categorical,,Which best describes how your position is funded?,
+position_group_tenure,Years in Current Group,current,numeric,,How many years... - Have you been in your current unit or group?,
+position_group_tenure_cat,Years in Current Group,current,categorical,Converted to a categorical variable,How many years... - Have you been in your current unit or group?,
+position_tenure,Years in Current Position (Grade),current,numeric,,"How many years... - Have you been in your current job code, grade, or level (as defined by human resources)?",
+position_percent_rcd,% RCD,responsibilities,numeric,,What percentage of your position is dedicated to RCD responsibilities?,Rounded to 5% increments
+facings_familiar,Familiar with Facings,responsibilities,ordered categorical,,"Are you familiar with the CaRCC Facings Model (researcher, data, software, systems, strategy and policy) for describing RCD roles?",
+facings_number,# Facings > 0,responsibilities,numeric,Number of facings assigned a non-zero percentage,,
+facings_researcher,Researcher-Facing %,responsibilities,numeric,,For the portion of your position dedicated to RCD responsibilities: What percentage of your time is focused on each of the following areas (RCD facings)? - Researcher,Rounded to 5% increments
+facings_data,Data-Facing %,responsibilities,numeric,,For the portion of your position dedicated to RCD responsibilities: What percentage of your time is focused on each of the following areas (RCD facings)? - Data,Rounded to 5% increments
+facings_software,Software-Facing %,responsibilities,numeric,,For the portion of your position dedicated to RCD responsibilities: What percentage of your time is focused on each of the following areas (RCD facings)? - Software,Rounded to 5% increments
+facings_systems,Systems-Facing %,responsibilities,numeric,,For the portion of your position dedicated to RCD responsibilities: What percentage of your time is focused on each of the following areas (RCD facings)? - Systems,Rounded to 5% increments
+facings_strategy,Strategy-Facing %,responsibilities,numeric,,For the portion of your position dedicated to RCD responsibilities: What percentage of your time is focused on each of the following areas (RCD facings)? - Strategy and Policy,Rounded to 5% increments
+facings_other,Other Facing %,responsibilities,numeric,,For the portion of your position dedicated to RCD responsibilities: What percentage of your time is focused on each of the following areas (RCD facings)? - Other,Rounded to 5% increments
+facings_researcher_majority,Majority Researcher-Facing,responsibilities,logical,,,facings_researcher >= 50
+facings_data_majority,Majority Data-Facing,responsibilities,logical,,,facings_data >= 50
+facings_software_majority,Majority Software-Facing,responsibilities,logical,,,facings_software >= 50
+facings_systems_majority,Majority Systems-Facing,responsibilities,logical,,,facings_systems >= 50
+facings_strategy_majority,Majority Strategy-Facing,responsibilities,logical,,,facings_strategy >= 50
+position_scope,RCD Scope,responsibilities,categorical,,Which of these best describes the scope across which you provide RCD services? What is the largest organizational level across which you support researchers with computing and data services?,
+satisfaction_position,Satisfaction with Current Position,field,ordered categorical,,"In general, how satisfied are you with your current position?",
+valued_peers,Work Valued by Peers,field,ordered categorical,,My work in my current position is acknowledged and valued by - RCD peers and colleagues,
+valued_manager,Work Valued by Manager,field,ordered categorical,,My work in my current position is acknowledged and valued by - Supervisor or manager,
+valued_researchers,Work Valued by Researchers,field,ordered categorical,,My work in my current position is acknowledged and valued by - Researchers you work with,
+valued_org,Work Valued by Organization,field,ordered categorical,,My work in my current position is acknowledged and valued by - Organization you work for,
+promoted,Promoted,current,logical,All Yes answers to having been promoted,Have you been promoted within your current unit or group?,
+management_staff_role,Management Staff Position,current,logical,"position_category is one of ""Manager"",""Director"",  ""AVP, VP, CIO, or other senior leader"" and the position_type is Staff",,
+position_group_tenure_cat,Position Tenure,current,ordered categorical,As a categorical variable instead of continuous,How many years... - Have you been in your current unit or group?,
