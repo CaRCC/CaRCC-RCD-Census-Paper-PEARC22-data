@@ -1,0 +1,148 @@
+# Analysis
+
+This file contains the public data analysis for "Characterizing the US Research Computing and Data (RCD) Workforce."
+
+```{r}
+library(tidyverse, warn.conflicts = FALSE)
+library(janitor, warn.conflicts = FALSE) # chisq.test, fisher.test are masked from package:stats
+```
+
+## Data
+
+```{r}
+all_freq <- read_csv("data_to_share/var_frequencies_all_respondents.csv", show_col_types = FALSE)
+institutions <- read_csv("data_to_share/institutions_all.csv", show_col_types = FALSE)
+all_edu_work <- read_csv("data_to_share/education_work_all_respondents.csv", show_col_types = FALSE)
+rcd_edu_work <- read_csv("data_to_share/education_work_rcd_respondents.csv", show_col_types = FALSE)
+gender <- read_csv("data_to_share/gender_counts.csv", show_col_types = FALSE)
+ethnicity <- read_csv("data_to_share/ethnicity_counts.csv", show_col_types = FALSE)
+jobs <- read_csv("data_to_share/job_titles.csv", show_col_types = FALSE)
+facings <- read_csv("data_to_share/facings.csv", show_col_types = FALSE)
+satisfaction <- read_csv("data_to_share/satisfaction_rcd_respondents.csv", show_col_types = FALSE)
+inclusion <- read_csv("data_to_share/inclusion.csv", show_col_types = FALSE)
+```
+
+## Institution Types
+
+```{r}
+length(unique(institutions$institution_code))
+
+institutions %>%
+  distinct(institution_code, .keep_all=TRUE) %>%
+  tabyl(institution_type) -> institution_counts
+institution_counts
+```
+
+```{r}
+
+institutions %>%
+  filter(!is.na(institution_code)) %>%
+  count(institution_code) %>%
+  summarize(median(n),
+            max(n))
+```
+
+```{r}
+pie(institution_counts$n, 
+    paste(institution_counts$institution_type,' ',
+          round(institution_counts$percent*100,2),
+          ' %',sep=""), 
+    main="Types of Institutions")
+```
+
+## Demographics
+
+```{r}
+filter(all_freq, variable=="age")
+```
+
+### Age
+
+```{r}
+filter(all_freq, variable=="age") -> age_freq
+age_freq
+```
+
+```{r}
+pie(age_freq$n, 
+    paste(age_freq$category,
+          ' (',
+          age_freq$n,
+          ') ',
+          round(age_freq$prop*100,2),
+          ' %',sep=""), 
+    main="Age")
+```
+
+### Gender
+
+```{r}
+filter(all_freq, variable=="gender") -> gender_freq
+gender_freq
+```
+
+```{r}
+pie(gender_freq$n, 
+    paste(c('Female','Male','X','NA/Other'),
+          ' (',
+          gender_freq$n,
+          ') ',
+          round(gender_freq$prop*100,2),
+          ' %',sep=""), 
+    main="Gender")
+```
+
+
+### Race and Ethinicy
+
+```{r}
+filter(all_freq, variable=="ethnicity1") -> race_ethnicity
+race_ethnicity
+```
+
+```{r}
+pie(race_ethnicity$n, 
+    paste(c('Asian','Black','Other','White/Hispanic','White','N/A'),
+          ' (',
+          race_ethnicity$n,
+          ') ',
+          round(race_ethnicity$prop*100,2),
+          ' %',sep=""), 
+    main="Race and Ethnicity")
+```
+
+### US Citizenship/Residency
+
+```{r}
+filter(all_freq, variable=="us_perm") -> citizen_freq
+citizen_freq
+```
+
+```{r}
+pie(citizen_freq$n, 
+    paste(citizen_freq$category,
+          ' (',
+          citizen_freq$n,
+          ') ',
+          round(citizen_freq$prop*100,2),
+          ' %',sep=""), 
+    main="US Citizenship/Residency")
+```
+
+### Disability Status
+
+```{r}
+filter(all_freq, variable=="disability") -> pd
+pd
+```
+
+```{r}
+pie(pd$n, 
+    paste(pd$category,
+          ' (',
+          pd$n,
+          ') ',
+          round(pd$prop*100,2),
+          ' %',sep=""), 
+    main="Disability Status")
+```
