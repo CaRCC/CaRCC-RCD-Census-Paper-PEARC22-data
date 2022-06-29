@@ -2,6 +2,8 @@
 
 This file contains the public data analysis for "Characterizing the US Research Computing and Data (RCD) Workforce."
 
+## Setup
+
 ```{r}
 library(tidyverse, warn.conflicts = FALSE)
 library(janitor, warn.conflicts = FALSE) # chisq.test, fisher.test are masked from package:stats
@@ -28,6 +30,7 @@ inclusion <- read_csv("data_to_share/inclusion.csv", show_col_types = FALSE)
 length(unique(institutions$institution_code))
 
 institutions %>%
+  filter(!is.na(institution_code)) %>%
   distinct(institution_code, .keep_all=TRUE) %>%
   tabyl(institution_type) -> institution_counts
 institution_counts
@@ -36,18 +39,18 @@ institution_counts
 ```{r}
 
 institutions %>%
-  filter(!is.na(institution_code)) %>%
   count(institution_code) %>%
   summarize(median(n),
             max(n))
 ```
 
 ```{r}
-pie(institution_counts$n, 
-    paste(institution_counts$institution_type,' ',
-          round(institution_counts$percent*100,2),
-          ' %',sep=""), 
-    main="Types of Institutions")
+par(mai=c(1,2.5,1,1))
+barplot(institution_counts$n,
+    xlab='Count',
+    names.arg=institution_counts$institution_type,
+    main="Types of Institutions",
+    horiz = TRUE, las=1)
 ```
 
 ## Demographics
