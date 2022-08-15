@@ -1,7 +1,7 @@
 # Characterizing the US Research Computing and Data (RCD) Workforce Analysis
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MiddelkoopT/CaRCC-RCD-Census-Paper-PEARC22-data.git/HEAD?urlpath=rstudio) in RStudio or 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MiddelkoopT/CaRCC-RCD-Census-Paper-PEARC22-data.git/HEAD) in JupyterLab.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CaRCC/CaRCC-RCD-Census-Paper-PEARC22-data.git/HEAD?urlpath=rstudio) in RStudio or 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CaRCC/CaRCC-RCD-Census-Paper-PEARC22-data.git/HEAD) in JupyterLab.
 
 Data sets to accompany "Characterizing the US Research Computing and Data (RCD) Workforce"
 
